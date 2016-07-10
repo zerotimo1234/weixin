@@ -15,6 +15,7 @@
 		78E4BD811D31FC8C000E2C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E4BD7F1D31FC8C000E2C16 /* LaunchScreen.storyboard */; };
 		78E4BD8C1D31FC8C000E2C16 /* WeixinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4BD8B1D31FC8C000E2C16 /* WeixinTests.m */; };
 		78E4BD971D31FC8C000E2C16 /* WeixinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4BD961D31FC8C000E2C16 /* WeixinUITests.m */; };
+		78E4BDA61D31FE9B000E2C16 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4BDA51D31FE9B000E2C16 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		78E4BD921D31FC8C000E2C16 /* WeixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E4BD961D31FC8C000E2C16 /* WeixinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinUITests.m; sourceTree = "<group>"; };
 		78E4BD981D31FC8C000E2C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E4BDA41D31FE9B000E2C16 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		78E4BDA51D31FE9B000E2C16 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				78E4BD751D31FC8C000E2C16 /* AppDelegate.m */,
 				78E4BD771D31FC8C000E2C16 /* ViewController.h */,
 				78E4BD781D31FC8C000E2C16 /* ViewController.m */,
+				78E4BDA41D31FE9B000E2C16 /* Person.h */,
+				78E4BDA51D31FE9B000E2C16 /* Person.m */,
 				78E4BD7A1D31FC8C000E2C16 /* Main.storyboard */,
 				78E4BD7D1D31FC8C000E2C16 /* Assets.xcassets */,
 				78E4BD7F1D31FC8C000E2C16 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				78E4BD791D31FC8C000E2C16 /* ViewController.m in Sources */,
 				78E4BD761D31FC8C000E2C16 /* AppDelegate.m in Sources */,
+				78E4BDA61D31FE9B000E2C16 /* Person.m in Sources */,
 				78E4BD731D31FC8C000E2C16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
